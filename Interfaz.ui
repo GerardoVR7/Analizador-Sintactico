@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>398</width>
-    <height>285</height>
+    <width>846</width>
+    <height>456</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,8 +16,8 @@
   <widget class="QPushButton" name="analizar">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>220</y>
+     <x>320</x>
+     <y>320</y>
      <width>201</width>
      <height>51</height>
     </rect>
@@ -34,18 +34,32 @@
   <widget class="QPlainTextEdit" name="plainTextEdit">
    <property name="geometry">
     <rect>
-     <x>20</x>
-     <y>20</y>
-     <width>351</width>
-     <height>141</height>
+     <x>30</x>
+     <y>30</y>
+     <width>361</width>
+     <height>221</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="plainText">
+    <string>&lt;Clase :
+nombre : student
+parametro : name, age, age
+tipo de dato : string , int , float
+metodos : +getName()
+relacion : uses : teacher
+Fin&gt;</string>
+   </property>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="alerta">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>180</y>
+     <x>320</x>
+     <y>270</y>
      <width>201</width>
      <height>31</height>
     </rect>
@@ -63,6 +77,48 @@
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>30</y>
+     <width>361</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="plainText">
+    <string>&lt;Clase :
+nombre : teacher
+parametro : name, age, age
+tipo de dato : string , int , float
+metodos : +getName()
+relacion : uses : student
+Fin&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="diagramUML">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>370</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Crear UML</string>
    </property>
   </widget>
  </widget>

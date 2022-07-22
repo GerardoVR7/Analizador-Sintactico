@@ -1,0 +1,19 @@
+
+        skinparam classAttributeIconSize 0
+
+        student ---- teacher
+
+        student : name,:string
+student : age,:int
+student : age:float
+
+        student : +getName()
+
+
+        teacher : name,:string
+teacher : age,:int
+teacher : age:float
+
+        teacher : +getName()
+
+        
